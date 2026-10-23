@@ -6,17 +6,61 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		740751E03089F69F00CFFC93 /* BazarAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740751DA3089F69F00CFFC93 /* BazarAppApp.swift */; };
+		740751E23089F69F00CFFC93 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740751DC3089F69F00CFFC93 /* MainView.swift */; };
+		740751E33089F69F00CFFC93 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740751DD3089F69F00CFFC93 /* OnboardingView.swift */; };
+		740751F1308A0A4D00CFFC93 /* AppRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740751F0308A0A4D00CFFC93 /* AppRoot.swift */; };
+		740751F3308A0AA800CFFC93 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740751F2308A0AA800CFFC93 /* RootView.swift */; };
+		740751F5308A0EE600CFFC93 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740751F4308A0EE600CFFC93 /* AppRouter.swift */; };
+		740751FB308A157B00CFFC93 /* OnboardingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740751FA308A157B00CFFC93 /* OnboardingPage.swift */; };
+		740751FD308A167000CFFC93 /* OnboardingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740751FC308A167000CFFC93 /* OnboardingPageView.swift */; };
+		740751FF308A1DDB00CFFC93 /* AuthRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740751FE308A1DDB00CFFC93 /* AuthRoute.swift */; };
+		7407520C308A1FE400CFFC93 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7407520A308A1FE400CFFC93 /* SignInView.swift */; };
+		7407520F308A1FE600CFFC93 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7407520D308A1FE600CFFC93 /* SignUpView.swift */; };
+		74075213308A1FFA00CFFC93 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74075211308A1FFA00CFFC93 /* SplashView.swift */; };
+		74075219308A27B600CFFC93 /* StorageKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74075217308A27B600CFFC93 /* StorageKeys.swift */; };
+		74075227308A28F400CFFC93 /* View+AuthDestinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74075226308A28F400CFFC93 /* View+AuthDestinations.swift */; };
+		7407522D308A40CA00CFFC93 /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7407522C308A40CA00CFFC93 /* OpenSans-SemiBold.ttf */; };
+		7407522E308A40CA00CFFC93 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7407522B308A40CA00CFFC93 /* OpenSans-Regular.ttf */; };
+		7407522F308A40CA00CFFC93 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7407522A308A40CA00CFFC93 /* OpenSans-Bold.ttf */; };
+		74075232308A436A00CFFC93 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 74075231308A436A00CFFC93 /* Roboto-Regular.ttf */; };
+		74860FC8308AA23B00BA601F /* Font+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74860FC7308AA23B00BA601F /* Font+App.swift */; };
+		74860FD4308AA46C00BA601F /* PrimaryButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74860FD3308AA46C00BA601F /* PrimaryButtonStyle.swift */; };
+		74860FD6308AA48400BA601F /* SecondaryButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74860FD5308AA48400BA601F /* SecondaryButtonStyle.swift */; };
+		74860FD8308AA49C00BA601F /* PageIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74860FD7308AA49C00BA601F /* PageIndicator.swift */; };
+		74BF7B89308B2E120069C892 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 74BF7B88308B2E120069C892 /* Roboto-Medium.ttf */; };
+		74BF7B8D308B309D0069C892 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74BF7B8B308B309D0069C892 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		740751BD3089F07900CFFC93 /* BazarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BazarApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		740751DA3089F69F00CFFC93 /* BazarAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BazarAppApp.swift; sourceTree = "<group>"; };
+		740751DC3089F69F00CFFC93 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		740751DD3089F69F00CFFC93 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		740751F0308A0A4D00CFFC93 /* AppRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRoot.swift; sourceTree = "<group>"; };
+		740751F2308A0AA800CFFC93 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		740751F4308A0EE600CFFC93 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		740751FA308A157B00CFFC93 /* OnboardingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPage.swift; sourceTree = "<group>"; };
+		740751FC308A167000CFFC93 /* OnboardingPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPageView.swift; sourceTree = "<group>"; };
+		740751FE308A1DDB00CFFC93 /* AuthRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRoute.swift; sourceTree = "<group>"; };
+		7407520A308A1FE400CFFC93 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		7407520D308A1FE600CFFC93 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		74075211308A1FFA00CFFC93 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		74075217308A27B600CFFC93 /* StorageKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageKeys.swift; sourceTree = "<group>"; };
+		74075226308A28F400CFFC93 /* View+AuthDestinations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+AuthDestinations.swift"; sourceTree = "<group>"; };
+		7407522A308A40CA00CFFC93 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		7407522B308A40CA00CFFC93 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		7407522C308A40CA00CFFC93 /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		74075230308A412500CFFC93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74075231308A436A00CFFC93 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		74860FC7308AA23B00BA601F /* Font+App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+App.swift"; sourceTree = "<group>"; };
+		74860FD3308AA46C00BA601F /* PrimaryButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButtonStyle.swift; sourceTree = "<group>"; };
+		74860FD5308AA48400BA601F /* SecondaryButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButtonStyle.swift; sourceTree = "<group>"; };
+		74860FD7308AA49C00BA601F /* PageIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageIndicator.swift; sourceTree = "<group>"; };
+		74BF7B88308B2E120069C892 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		74BF7B8B308B309D0069C892 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		740751BF3089F07900CFFC93 /* BazarApp */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = BazarApp;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		740751BA3089F07900CFFC93 /* Frameworks */ = {
@@ -32,7 +76,7 @@
 		740751B43089F07900CFFC93 = {
 			isa = PBXGroup;
 			children = (
-				740751BF3089F07900CFFC93 /* BazarApp */,
+				740751DF3089F69F00CFFC93 /* BazarApp */,
 				740751BE3089F07900CFFC93 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +87,198 @@
 				740751BD3089F07900CFFC93 /* BazarApp.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		740751D63089F69F00CFFC93 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				74075218308A27B600CFFC93 /* Storage */,
+				740751EF308A0A4000CFFC93 /* Navigation */,
+				74860FCE308AA3AD00BA601F /* Extensions */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		740751D73089F69F00CFFC93 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				74075229308A408900CFFC93 /* Fonts */,
+				74BF7B8C308B309D0069C892 /* Assets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		740751D83089F69F00CFFC93 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				740751EB3089F6BD00CFFC93 /* Splash */,
+				740751EA3089F6BA00CFFC93 /* Onboarding */,
+				74075204308A1E3700CFFC93 /* Auth */,
+				740751E93089F6B800CFFC93 /* Main */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		740751DF3089F69F00CFFC93 /* BazarApp */ = {
+			isa = PBXGroup;
+			children = (
+				74075230308A412500CFFC93 /* Info.plist */,
+				740751ED3089F70F00CFFC93 /* App */,
+				740751D63089F69F00CFFC93 /* Core */,
+				740751D83089F69F00CFFC93 /* Screens */,
+				74860FD2308AA43A00BA601F /* Components */,
+				740751D73089F69F00CFFC93 /* Resources */,
+			);
+			path = BazarApp;
+			sourceTree = "<group>";
+		};
+		740751E93089F6B800CFFC93 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				740751DC3089F69F00CFFC93 /* MainView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		740751EA3089F6BA00CFFC93 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				740751F8308A157600CFFC93 /* Model */,
+				740751F9308A157800CFFC93 /* View */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		740751EB3089F6BD00CFFC93 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				74075212308A1FFA00CFFC93 /* View */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		740751ED3089F70F00CFFC93 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				740751DA3089F69F00CFFC93 /* BazarAppApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		740751EF308A0A4000CFFC93 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				740751FE308A1DDB00CFFC93 /* AuthRoute.swift */,
+				740751F0308A0A4D00CFFC93 /* AppRoot.swift */,
+				740751F4308A0EE600CFFC93 /* AppRouter.swift */,
+				740751F2308A0AA800CFFC93 /* RootView.swift */,
+				74075226308A28F400CFFC93 /* View+AuthDestinations.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		740751F8308A157600CFFC93 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				740751FA308A157B00CFFC93 /* OnboardingPage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		740751F9308A157800CFFC93 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				740751DD3089F69F00CFFC93 /* OnboardingView.swift */,
+				740751FC308A167000CFFC93 /* OnboardingPageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		74075204308A1E3700CFFC93 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				7407520B308A1FE400CFFC93 /* SignUp */,
+				7407520E308A1FE600CFFC93 /* SignIn */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		7407520B308A1FE400CFFC93 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				7407520A308A1FE400CFFC93 /* SignInView.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		7407520E308A1FE600CFFC93 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				7407520D308A1FE600CFFC93 /* SignUpView.swift */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		74075212308A1FFA00CFFC93 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				74075211308A1FFA00CFFC93 /* SplashView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		74075218308A27B600CFFC93 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				74075217308A27B600CFFC93 /* StorageKeys.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		74075229308A408900CFFC93 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7407522A308A40CA00CFFC93 /* OpenSans-Bold.ttf */,
+				7407522B308A40CA00CFFC93 /* OpenSans-Regular.ttf */,
+				7407522C308A40CA00CFFC93 /* OpenSans-SemiBold.ttf */,
+				74075231308A436A00CFFC93 /* Roboto-Regular.ttf */,
+				74BF7B88308B2E120069C892 /* Roboto-Medium.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		74860FCE308AA3AD00BA601F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				74860FC7308AA23B00BA601F /* Font+App.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		74860FD1308AA43A00BA601F /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				74860FD3308AA46C00BA601F /* PrimaryButtonStyle.swift */,
+				74860FD5308AA48400BA601F /* SecondaryButtonStyle.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		74860FD2308AA43A00BA601F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				74860FD7308AA49C00BA601F /* PageIndicator.swift */,
+				74860FD1308AA43A00BA601F /* Buttons */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		74BF7B8C308B309D0069C892 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				74BF7B8B308B309D0069C892 /* Assets.xcassets */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +295,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				740751BF3089F07900CFFC93 /* BazarApp */,
 			);
 			name = BazarApp;
 			packageProductDependencies = (
@@ -109,6 +342,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7407522D308A40CA00CFFC93 /* OpenSans-SemiBold.ttf in Resources */,
+				7407522E308A40CA00CFFC93 /* OpenSans-Regular.ttf in Resources */,
+				74BF7B89308B2E120069C892 /* Roboto-Medium.ttf in Resources */,
+				74075232308A436A00CFFC93 /* Roboto-Regular.ttf in Resources */,
+				74BF7B8D308B309D0069C892 /* Assets.xcassets in Resources */,
+				7407522F308A40CA00CFFC93 /* OpenSans-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +358,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74075219308A27B600CFFC93 /* StorageKeys.swift in Sources */,
+				740751E03089F69F00CFFC93 /* BazarAppApp.swift in Sources */,
+				740751E23089F69F00CFFC93 /* MainView.swift in Sources */,
+				740751F1308A0A4D00CFFC93 /* AppRoot.swift in Sources */,
+				74860FD6308AA48400BA601F /* SecondaryButtonStyle.swift in Sources */,
+				74860FD4308AA46C00BA601F /* PrimaryButtonStyle.swift in Sources */,
+				740751F5308A0EE600CFFC93 /* AppRouter.swift in Sources */,
+				7407520F308A1FE600CFFC93 /* SignUpView.swift in Sources */,
+				74075213308A1FFA00CFFC93 /* SplashView.swift in Sources */,
+				740751F3308A0AA800CFFC93 /* RootView.swift in Sources */,
+				7407520C308A1FE400CFFC93 /* SignInView.swift in Sources */,
+				740751FF308A1DDB00CFFC93 /* AuthRoute.swift in Sources */,
+				740751E33089F69F00CFFC93 /* OnboardingView.swift in Sources */,
+				740751FD308A167000CFFC93 /* OnboardingPageView.swift in Sources */,
+				74860FC8308AA23B00BA601F /* Font+App.swift in Sources */,
+				740751FB308A157B00CFFC93 /* OnboardingPage.swift in Sources */,
+				74860FD8308AA49C00BA601F /* PageIndicator.swift in Sources */,
+				74075227308A28F400CFFC93 /* View+AuthDestinations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,11 +510,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BazarApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -284,11 +543,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BazarApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
