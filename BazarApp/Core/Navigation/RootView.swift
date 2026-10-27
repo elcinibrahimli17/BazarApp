@@ -22,6 +22,8 @@ struct RootView: View {
                     SignInView()
                         .authDestinations()
                 }
+            case .pin(let mode):
+                PinView(mode: mode)
             case .main:
                 MainView()
             }

@@ -11,8 +11,10 @@ extension View {
     func authDestinations() -> some View {
         navigationDestination(for: AuthRoute.self) { route in
             switch route {
-            case .signIn: SignInView()
-            case .signUp: SignUpView()
+            case .signUp:
+                SignUpView()
+            case .signUpSuccess:
+                SignUpSuccessView()
             }
         }
     }

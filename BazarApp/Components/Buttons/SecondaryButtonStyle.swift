@@ -9,20 +9,27 @@
 import SwiftUI
 
 struct SecondaryButtonStyle: ButtonStyle {
+    var cornerRadius: CGFloat = 12
+
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
             .font(.button)
             .foregroundStyle(Color(.brandPrimary))
             .frame(maxWidth: .infinity)
-            .frame(height: 56)
-            .background(Color(.brandPrimary).opacity(0.05))
-            .clipShape(RoundedRectangle(cornerRadius: 12))
+            .frame(height: 48)
+            .background(Color(.primary50), in: RoundedRectangle(cornerRadius: cornerRadius))
             .opacity(configuration.isPressed ? 0.6 : 1)
     }
 }
 
-extension View {
-    func secondaryButtonStyle() -> some View {
-        buttonStyle(SecondaryButtonStyle())
+extension ButtonStyle where Self == SecondaryButtonStyle {
+    static func secondaryButton(cornerRadius: CGFloat = 12) -> SecondaryButtonStyle {
+        SecondaryButtonStyle(cornerRadius: cornerRadius)
     }
 }
+
+//extension View {
+//    func secondaryButtonStyle() -> some View {
+//        buttonStyle(SecondaryButtonStyle())
+//    }
+//}

@@ -11,5 +11,6 @@ enum AppRoot {
     case splash
     case onboarding
     case auth
+    case pin(PinMode)
     case main
 }

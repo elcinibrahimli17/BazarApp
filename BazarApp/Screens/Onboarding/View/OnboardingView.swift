@@ -11,29 +11,25 @@ struct OnboardingView: View {
     @Environment(AppRouter.self) private var router
     @AppStorage(StorageKeys.hasSeenOnboarding) private var hasSeenOnboarding = false
     @State private var currentPage = 0
-    private let pages = OnboardingPage.pages
 
-    private var isLastPage: Bool {
-        currentPage == pages.count - 1
-    }
+    private let pages = OnboardingPage.pages
 
     var body: some View {
         VStack(spacing: 0) {
             skipButton
             pagesView
-            PageIndicator(count: pages.count, currentIndex: currentPage)
-                .padding(.vertical, 24)
+            pageIndicator
             actionButtons
         }
         .padding(.bottom, 16)
     }
+}
 
-    private var skipButton: some View {
+private extension OnboardingView {
+    var skipButton: some View {
         HStack {
             Button("Skip") {
-                withAnimation {
-                    currentPage = pages.count - 1
-                }
+                skip()
             }
             .font(.link)
             .foregroundStyle(Color(.brandPrimary))
@@ -46,7 +42,7 @@ struct OnboardingView: View {
         .frame(height: 44)
     }
 
-    private var pagesView: some View {
+    var pagesView: some View {
         TabView(selection: $currentPage) {
             ForEach(pages.indices, id: \.self) { index in
                 OnboardingPageView(page: pages[index])
@@ -56,22 +52,45 @@ struct OnboardingView: View {
         .tabViewStyle(.page(indexDisplayMode: .never))
     }
 
-    private var actionButtons: some View {
+    var pageIndicator: some View {
+        PageIndicator(count: pages.count, currentIndex: currentPage)
+            .padding(.vertical, 24)
+    }
+
+    var actionButtons: some View {
         VStack(spacing: 8) {
-            Button(isLastPage ? "Get Started" : "Continue") {
+            Button(primaryButtonTitle) {
                 primaryAction()
             }
-            .primaryButtonStyle()
+            .buttonStyle(.primaryButton())
 
             Button("Sign in") {
                 finishOnboarding()
             }
-            .secondaryButtonStyle()
+            .buttonStyle(.secondaryButton())
         }
         .padding(.horizontal, 24)
     }
+}
 
-    private func primaryAction() {
+private extension OnboardingView {
+    var isLastPage: Bool {
+        currentPage == pages.count - 1
+    }
+
+    var primaryButtonTitle: String {
+        isLastPage ? "Get Started" : "Continue"
+    }
+}
+
+private extension OnboardingView {
+    func skip() {
+        withAnimation {
+            currentPage = pages.count - 1
+        }
+    }
+
+    func primaryAction() {
         if isLastPage {
             finishOnboarding()
         } else {
@@ -81,7 +100,7 @@ struct OnboardingView: View {
         }
     }
 
-    private func finishOnboarding() {
+    func finishOnboarding() {
         hasSeenOnboarding = true
         router.authPath = []
         withAnimation {
@@ -94,4 +113,3 @@ struct OnboardingView: View {
     OnboardingView()
         .environment(AppRouter())
 }
-
